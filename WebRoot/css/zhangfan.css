@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+body {
+	margin-top: 70px;/* 定义上边距 */
+	background-color: gainsboro;/* 定义背景颜色 */
+}
+.insertdiv 
+{
+	width: 95%;
+	padding: 20px;/* 定义上左下右的填充均为20px */
+	margin-left: auto;/* 定义左边距 为依赖浏览器来设置*/
+	margin-right: auto;/* 定义右边距 为依赖浏览器来设置*/
+	background-color: white;/* 用颜色名称定义背景颜色 */
+	border-radius: 10px;
+	margin-bottom: 30px;/* 定义下边距 */
+	margin-top: 70px;/* 定义上边距 */
+}
+.divinline{
+float:left;
+margin-top:-16px;/* 定义上边距 */
+}
+.divselect{
+width:100%;
+padding:20px;/* 定义上左下右的填充均为20px */
+margin-top:-15px;/* 定义上边距 */
+}
+table {
+	margin-top: 10px;/* 定义上边距 */
+}
+td,th {
+	text-align: center;
+}
+#main {
+	margin-top: 5px;/* 定义上边距 */
+}
+#divlist{
+				width: 100%;
+				height: auto;
+				font-family: "微软雅黑";/* 设置文本字体系列 */
+				font-size: 13px;/* 设置文本字体大小 */	
+			}
+.showlist_pass{
+			    position: relative;
+				width: 100%;
+				height: 60px;
+				background: url(../images/pass.jpg) no-repeat;/* 设置背景图像，不水平平铺 */
+				background-position: 0 center;/* 设置图像在背景中的位置 */
+				padding:0px;/* 定义上左下右的填充为0px */
+				padding-left: 55px;	/* 定义左填充为55px */		
+				border-bottom: 1px solid gainsboro;/* 定义下边框的宽度、样式和颜色 ，分别为1px，实边框和淡灰色*/
+				}
+.showlist_unpass{
+			    position: relative;
+				width: 100%;
+				height: 60px;
+				background: url(../images/unpass.jpg) no-repeat;/* 设置背景图像，不水平平铺 */
+				background-position: 0 center;/* 设置图像在背景中的位置 */
+				padding:0px;/* 定义上左下右的填充为0px */
+				padding-left: 55px;	/* 定义左填充为55px */		
+				border-bottom: 1px solid gainsboro;/* 定义下边框的宽度、样式和颜色 ，分别为1px，实边框和淡灰色*/
+				}
+.showlist_passing{
+			    position: relative;
+				width: 100%;
+				height: 60px;
+				background: url(../images/passing.jpg) no-repeat;/* 设置背景图像，不水平平铺 */
+				background-position: 0 center;/* 设置图像在背景中的位置 */
+				padding:0px;/* 定义上左下右的填充为0px */
+				padding-left: 55px;	/* 定义左填充为55px */		
+				border-bottom: 1px solid gainsboro;/* 定义下边框的宽度、样式和颜色 ，分别为1px，实边框和淡灰色*/
+				}
+.left,.right{
+				float: left;
+			}
+.left{
+				width: 90%;
+				margin-top: 10px;/* 定义上边距 */
+				margin-bottom: 10px;/* 定义下边距 */
+                height: 40px;/* 定义元素高度 */
+				line-height: 20px;/* 定义行高 */
+				/*以下几句是多余的字自动隐藏*/			
+				overflow: hidden;
+				text-overflow: ellipsis;
+				/*省略号*/			
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				/*行数*/				
+				-webkit-box-orient: vertical;
+			}
+.right{
+				background:url(img/right.png) no-repeat;/* 设置背景图像，不水平平铺 */
+				background-position: 0 center;/* 设置图像在背景中的位置 */
+				width: 10%;/* 设置按钮宽度为10% */
+				height: 60px;/* 设置按钮高度为60px */
+				position: absolute;
+				right: 0px;
+			}
+			.mya{
+				text-decoration: none;
+				color: black;
+			}
+			.mya:hover,.mya:active{
+			    text-decoration: none;
+				color: black;
+			}
+.btnback {
+				border: 2px solid white;/* 定义边框四个边的的宽度、样式和颜色 ，分别为2px，实边框和白色*/
+				border-top: 0;/* 定义上边框 */
+				border-right: 0;/* 定义右边框 */
+				width: 16px;/* 设置按钮宽度为16px */
+				height: 16px;/* 设置按钮高度为16px */
+				float: left;
+				transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				/* IE 9 */
+				-moz-transform: rotate(45deg);
+				/* Firefox */
+				-webkit-transform: rotate(45deg);
+				/* Safari 和 Chrome */
+				-o-transform: rotate(45deg);
+				/* Opera */
+			}
+.heading {
+	           width: 100%;/* 设置元素宽度为100% */
+		       height: auto;/* 设置元素高度为自动高度 */
+		       text-align: center;
+		       border-bottom: 1px dotted;/* 定义下边框的宽度、样式 ，分别为1px，点线框*/
+		       padding-bottom: 10px;/* 定义底部的填充为10px */
+		       margin-bottom: 10px;/* 定义下边距 */
+	 	       font-size: medium;/* 设置字体大小为中号 */
+		       font-weight: bold;/* 设置字体为粗体 */
+		       font: "微软雅黑";/* 设置文本字体犀系列 */
+		       }
